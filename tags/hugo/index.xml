@@ -1,1 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on MahdiKhadem</title><link>https://mahdikhadem.com/tags/hugo/</link><description>Recent content in Hugo on MahdiKhadem</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 17 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mahdikhadem.com/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Build a Hugo Site</title><link>https://mahdikhadem.com/posts/hugo/</link><pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate><guid>https://mahdikhadem.com/posts/hugo/</guid><description>&lt;p&gt;This article offers a instruction that can be used in to build a Hugo Site.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on MahdiKhadem</title><link>https://mahdikhadem.com/tags/hugo/</link><description>Recent content in Hugo on MahdiKhadem</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 17 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mahdikhadem.com/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Build a Hugo Site</title><link>https://mahdikhadem.com/posts/hugo/</link><pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate><guid>https://mahdikhadem.com/posts/hugo/</guid><description>&lt;p&gt;This article offers a instruction that can be used in to build a Hugo Site.&lt;/p&gt;
+&lt;h2 id="1-install-hugo-with-winget"&gt;
+ 1) Install Hugo with winget
+ &lt;a class="heading-link" href="#1-install-hugo-with-winget"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;p&gt;On Windows PowerShell:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-powershell" data-lang="powershell"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;winget&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;Hugo&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="py"&gt;Hugo&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="py"&gt;Extended&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Hugo’s official Windows install docs explicitly list &lt;code&gt;winget install Hugo.Hugo.Extended&lt;/code&gt; for the extended edition. ([gohugo.io][1])&lt;/p&gt;
+&lt;p&gt;Quick check:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-powershell" data-lang="powershell"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;hugo&lt;/span&gt; &lt;span class="n"&gt;version&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id="2-create-a-new-site"&gt;
+ 2) Create a new site
+ &lt;a class="heading-link" href="#2-create-a-new-site"&gt;
+ &lt;i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"&gt;&lt;/i&gt;
+ &lt;span class="sr-only"&gt;Link to heading&lt;/span&gt;
+ &lt;/a&gt;
+&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-powershell" data-lang="powershell"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;hugo&lt;/span&gt; &lt;span class="n"&gt;new&lt;/span&gt; &lt;span class="n"&gt;site&lt;/span&gt; &lt;span class="n"&gt;site_name&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;That’s the official CLI command for creating a new Hugo site directory. ([gohugo.io][2])&lt;/p&gt;</description></item></channel></rss>
