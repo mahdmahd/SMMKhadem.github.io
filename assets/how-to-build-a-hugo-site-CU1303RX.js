@@ -1,4 +1,4 @@
-import{t as e}from"./index-13Rr7eJH.js";var t=e();function n(e){let n={blockquote:`blockquote`,code:`code`,em:`em`,h2:`h2`,h3:`h3`,hr:`hr`,li:`li`,ol:`ol`,p:`p`,pre:`pre`,strong:`strong`,ul:`ul`,...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.p,{children:`This article offers a instruction that can be used in to build a Hugo Site.`}),`
+import{t as e}from"./index-BnF6zdUu.js";var t=e();function n(e){let n={blockquote:`blockquote`,code:`code`,em:`em`,h2:`h2`,h3:`h3`,hr:`hr`,li:`li`,ol:`ol`,p:`p`,pre:`pre`,strong:`strong`,ul:`ul`,...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.p,{children:`This article offers a instruction that can be used in to build a Hugo Site.`}),`
 `,(0,t.jsx)(n.h2,{children:`1) Install Hugo with winget`}),`
 `,(0,t.jsx)(n.p,{children:`On Windows PowerShell:`}),`
 `,(0,t.jsx)(n.pre,{children:(0,t.jsx)(n.code,{className:`language-powershell`,children:`winget install Hugo.Hugo.Extended
